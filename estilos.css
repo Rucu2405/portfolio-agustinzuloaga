@@ -1,0 +1,178 @@
+#menu {
+  background: linear-gradient(to right, #fbcf3b, #ffe263);
+  font-family: "Cal Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#menu nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+#menu nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#menu nav ul li a {
+  color: rgb(17, 15, 15);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#menu nav ul li a:hover {
+  background-color: #ffffff94;
+}
+
+#presentacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  gap: 5px;
+}
+
+#caja-presentacion {
+  max-width: 600px;
+  background-color: #000000; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#caja-presentacion a{
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#caja-presentacion a:hover{
+  background-color: #1a191994;
+}
+
+#caja-presentacion h1 {
+  color: white;
+}
+
+#caja-presentacion p {
+  color: rgb(255, 255, 255);
+}
+
+#caja-cara img {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #000000; 
+  border-radius: 100%;
+  width: 220px; 
+  height: auto; 
+}
+
+#acercademi{
+  padding: 170px;
+  text-align: center;
+}
+
+#acercademi p{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2.0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#aptitudes{
+  text-align: center;
+}
+
+#aptitudes h2{
+  margin-top: 1px;
+}
+
+#aptitudes p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#aptitudes table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aptitudes table img{
+  padding: 40px;
+  margin-bottom: 160px;
+}
+
+#cursos{
+  text-align: center;
+}
+
+#cursos h2{
+  margin-bottom: 30px;
+}
+
+#cursos p{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2.0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#proyectos{
+  background-color: rgb(73, 72, 72); 
+  text-align: center;
+  color: white;
+  padding: 170px;
+}
+
+
+#proyectos p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor-proyectos{
+  display: flex;
+  justify-content: center;      
+  gap: 80px;               
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #2e2c2c;
+  border-radius: 10px;
+}
+
+.contenedor-proyectos a{
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.contenedor-proyectos a:hover{
+  background-color: #ffffff94;
+}
+
+#contactame{
+  text-align: center;
+}
+
+#contactame label{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#contactame button{
+  margin-bottom: 80px;
+}
+
+#redes a{
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#redes a:hover {
+  background-color: #ffffff94;
+}
